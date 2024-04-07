@@ -1,4 +1,7 @@
-/** Add your relevant code here for the issue to reproduce */
+"use client"; // Removing this directive will make it work again.
+
+export const runtime = 'edge';
+
 export default function Home() {
-  return null;
+  return <div>Update this when running the dev server.</div>;
 }
